@@ -1,0 +1,23 @@
+{
+  "name": "node-security",
+  "version": "1.0.0",
+  "description": "Jwt security for node apps",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.ts"
+  },
+  "keywords": [],
+  "author": "Zvonimir Skorin",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.1",
+    "@types/jsonwebtoken": "^9.0.1",
+    "@types/node": "^18.15.11",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "jsonwebtoken": "^9.0.0"
+  }
+}
